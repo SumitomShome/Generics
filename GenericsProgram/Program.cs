@@ -10,6 +10,8 @@ namespace GenericsProgram
             Console.WriteLine(output);
             double doubleoutput = MaximumCheck.MaximumFloatNumber(111.2, 22.45, 78.56);
             Console.WriteLine(doubleoutput);
+            string stringoutput = MaximumCheck.MaximumString("Apple", "Peach", "Banana");
+            Console.WriteLine(stringoutput);
             Console.ReadKey();
         }
     }
